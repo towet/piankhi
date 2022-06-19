@@ -1,0 +1,51 @@
+body {
+  background: #333;
+}
+
+.card {
+  background: url(https://i.pinimg.com/originals/39/b2/a2/39b2a2d653c132ff62eb2417bdab8863.png);
+  height: auto;
+  width: 20rem;
+  max-width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.45);
+  border-radius: 10px;
+}
+.card_profile_img {
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 16px;
+}
+.card_profile_img > img {
+  position: relative;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: 0 25px 2rem rgba(0, 0, 0, 0.15);
+}
+.card_content {
+  padding: 16px;
+  text-align: center;
+}
+.card_content > h3 {
+  font-family: arial;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.card_content > span {
+  font-family: arial;
+  font-size: 0.6rem;
+  font-weight: 900;
+  color: #777;
+  text-transform: uppercase;
+}
+.card_content > p {
+  text-align: justify;
+  font-family: arial;
+  color: rgba(0, 0, 0, 0.4);
+}
